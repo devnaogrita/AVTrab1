@@ -30,6 +30,11 @@ section {
     border-radius: 20px;
     margin:1.5% 10%;
 }
+@media only screen and (max-width: 500px) {
+    section {
+        padding: 50px 10px;
+    }
+  }
 header {
     position: relative;
     margin-bottom: 50px;
