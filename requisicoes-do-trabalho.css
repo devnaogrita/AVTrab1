@@ -25,7 +25,6 @@ span {
     color:#313131;
 }
 section {
-    padding: 50px 100px;
     background-color: white;
     border-radius: 20px;
     margin:1.5% 10%;
@@ -37,5 +36,10 @@ header {
 @media (max-width: 768px) {
     section {
         padding: 50px 10px;
+    }
+}
+@media  (min-width: 769px) {
+    section {
+        padding: 50px 100px;
     }
 }
