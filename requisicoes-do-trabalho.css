@@ -33,12 +33,12 @@ header {
     position: relative;
     margin-bottom: 50px;
 }
-@media (max-width: 768px) {
+@media all (max-width: 768px) {
     section {
         padding: 50px 10px;
     }
 }
-@media  (min-width: 769px) {
+@media all  (min-width: 769px) {
     section {
         padding: 50px 100px;
     }
